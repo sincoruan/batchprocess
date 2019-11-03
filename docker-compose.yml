@@ -1,0 +1,18 @@
+version: "3.1"
+services:
+  web:
+    restart: always
+    image: ruanxingke/batchprocess
+    container_name: web
+    ports:
+      - 8080:8081
+    environment:
+      LOCAL_HOST: 192.168.211.129
+  mysql:
+    restart: always
+    image: mysql:5.7.22
+    container_name: mysql
+    ports:
+      - 3307:3306
+    environment:
+      MYSQL_ROOT_PASSWORD: root
