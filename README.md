@@ -1,4 +1,4 @@
-1.download docker-compose.yml and modify the LOCAL_HOST to your own ip
+1.download docker-compose.yml and modify the LOCAL_HOST to your own computer ip
 
 2.docker-compose up
 
